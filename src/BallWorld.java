@@ -53,9 +53,9 @@ class BallWorld {
         myRoot.getChildren().add(myPlayer);
 
         // create a place to display the shapes and react to input
-        Scene scene = new Scene(myRoot, width, height, Color.WHITE);
-        scene.setOnKeyPressed(e -> handleKeyInput(e));
-        return scene;
+        myScene = new Scene(myRoot, width, height, Color.WHITE);
+        myScene.setOnKeyPressed(e -> handleKeyInput(e));
+        return myScene;
     }
 
 
