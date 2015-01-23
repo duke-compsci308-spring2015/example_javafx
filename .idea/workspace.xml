@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de6c0fb-08f6-4709-97a5-dfaf38e7382b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-    </list>
+    <list default="true" id="1de6c0fb-08f6-4709-97a5-dfaf38e7382b" name="Default" comment="" />
     <ignored path="example_javafx.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -236,12 +234,12 @@
       <updated>1422044256114</updated>
       <workItem from="1422044257446" duration="37000" />
       <workItem from="1422045587432" duration="1000" />
-      <workItem from="1422045730957" duration="16000" />
+      <workItem from="1422045730957" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54000" />
+    <option name="totallyTimeSpent" value="128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="698" extended-state="6" />
