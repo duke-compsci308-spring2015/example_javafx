@@ -13,6 +13,7 @@ import javafx.stage.Stage;
  */
 public class Main extends Application {
     private static final int NUM_FRAMES_PER_SECOND = 60;
+    private static final int POTATOES = 10;
     private BallWorld myGame;
 
     /**
