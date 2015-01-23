@@ -21,11 +21,11 @@ public class Main extends Application {
      */
     @Override
     public void start (Stage s) {
-        s.setTitle("BallWorld!");
+        s.setTitle("Big BallWorld!");
         // create your own game here
         myGame = new BallWorld();
         // attach game to the stage and display it
-        Scene scene = myGame.init(s, 400, 400);
+        Scene scene = myGame.init(s, 800, 800);
         s.setScene(scene);
         s.show();
 
