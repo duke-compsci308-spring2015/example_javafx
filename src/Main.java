@@ -25,12 +25,12 @@ public class Main extends Application {
         // create your own game here
         myGame = new BallWorld();
         // attach game to the stage and display it
-        Scene scene = myGame.init(s, 400, 400);
+        Scene scene = myGame.init(s, 450, 450);
         s.setScene(scene);
         s.show();
 
         // setup the game's loop
-        KeyFrame frame = myGame.start(NUM_FRAMES_PER_SECOND);
+        KeyFrame frame = myGame.start(NUM_FRAMES_PER_SECOND + 5);
         Timeline animation = new Timeline();
         animation.setCycleCount(Animation.INDEFINITE);
         animation.getKeyFrames().add(frame);
